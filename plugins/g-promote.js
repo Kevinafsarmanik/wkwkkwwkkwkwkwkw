@@ -17,6 +17,7 @@ if (nenen) m.reply(`Promoción exitosa @${user.split('@')[0]}!`);
   for (let user of users)
     if (user.endsWith("@s.whatsapp.net"))
       await conn.groupParticipantsUpdate(m.chat, [user], "promote");
+m.reply(`Promoción exitosa @${user.split('@')[0]}!`)
 };
 
 handler.help = ['promote @user']
