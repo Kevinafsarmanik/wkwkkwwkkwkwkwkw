@@ -1,6 +1,6 @@
 let handler = async m => {
 
-let krtu = `Tarjeta de introducción`
+let krtu = `Kartu intro GC terslebew`
 m.reply(`
 0ཻུ۪۪ꦽꦼ̷⸙‹•══════════════♡᭄
 │       *「 Bienvenid@ 」*
