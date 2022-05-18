@@ -139,10 +139,10 @@ global.reloadHandler = function (restatConn) {
   conn.sSubject = 'Subjek telah di ubah\n@subject'
   conn.sIcon = 'Hmmm...!'
   conn.sRevoke = 'Slash chat bot \n@revoke'
-  conn.sAnnounceOn = '¡El grupo ha sido cerrado!\nahora solo los administradores pueden enviar mensajes.'
-  conn.sAnnounceOff = '¡El grupo ha sido abierto!\nahora todos los participantes pueden enviar mensajes.'
-  conn.sRestrictOn = 'Editar información del grupo cambió a solo administrador!'
-  conn.sRestrictOff = 'Editar información del grupo cambió a todos los participantes!'
+  conn.sAnnounceOn = '¡Berhasil!\nahora solo los administradores pueden enviar mensajes.'
+  conn.sAnnounceOff = '¡Berhasil!\nahora todos los participantes pueden enviar mensajes.'
+  conn.sRestrictOn = 'Berhasil!'
+  conn.sRestrictOff = 'Berhasil!'
 
   conn.handler = handler.handler.bind(conn)
   conn.participantsUpdate = handler.participantsUpdate.bind(conn)
