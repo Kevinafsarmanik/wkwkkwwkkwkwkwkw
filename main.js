@@ -131,14 +131,14 @@ global.reloadHandler = function (restatConn) {
     conn.ev.off('creds.update', conn.credsUpdate)
   }
 
-  conn.welcome = 'Hola, @user!\nBienvenido al grupo: @subject\n\n@desc'
-  conn.bye = 'Adiós @user!'
-  conn.spromote = '@user ahora es administrador!'
-  conn.sdemote = '@user ahora no es administrador!'
-  conn.sDesc = 'La descripción ha sido cambiada a \n@desc'
-  conn.sSubject = 'El título del grupo ha sido cambiado a \n@subject'
-  conn.sIcon = 'El icono del grupo ha sido cambiado.!'
-  conn.sRevoke = 'El enlace del grupo ha sido cambiado a \n@revoke'
+  conn.welcome = 'Halo beban 👋, @user!\nSelamat datang di groub: @subject\n\n@desc'
+  conn.bye = 'Alhamdulilah beban keluar ya ges ya @user!'
+  conn.spromote = '@user perintah ini khusus admin ygy!'
+  conn.sdemote = '@user perintah ini khusus Admin ygy!'
+  conn.sDesc = 'Descripsi Telah di ubah\n@desc'
+  conn.sSubject = 'Subjek telah di ubah\n@subject'
+  conn.sIcon = 'Hmmm...!'
+  conn.sRevoke = 'Slash chat bot \n@revoke'
   conn.sAnnounceOn = '¡El grupo ha sido cerrado!\nahora solo los administradores pueden enviar mensajes.'
   conn.sAnnounceOff = '¡El grupo ha sido abierto!\nahora todos los participantes pueden enviar mensajes.'
   conn.sRestrictOn = 'Editar información del grupo cambió a solo administrador!'
