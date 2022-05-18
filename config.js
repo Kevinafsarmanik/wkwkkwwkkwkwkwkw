@@ -3,8 +3,8 @@ global.owner = JSON.parse(fs.readFileSync('./src/owner.json')) // Put your numbe
 global.mods = JSON.parse(fs.readFileSync('./src/moderator.json')) // Want some help?
 
 global.kontak = [
-['56999448163', 'ConfuMods', true],
-['529996125657', 'The Shadow Brokers', true]
+['6282132156123', 'kevin', true],
+['212615571679', 'bot whatsapp', true]
 ]
 global.APIs = { // API Prefix
   // name: 'https://website'
@@ -34,21 +34,21 @@ global.APIKeys = { // APIKey Here
 }
 
 
-global.wait = '_*Porfavor espere...*_'
-global.eror = '_*Lo siento el servidor no se encuentra estable justo ahora..*_'
+global.wait = '_*Tunggu Sebentar kak*_'
+global.eror = 'Eror hubungi owner'
 
 //========Url BUTT=========//
-global.dtu = 'Seguir'
-global.urlnya = "https://www.instagram.com/confumods"
+global.dtu = 'instagram'
+global.urlnya = "https://www.instagram.com/kevinafsar_"
 
 //============= callButtons =============//
-global.dtc = 'Llamar a mi owner'
-global.phn = '+56 9 9944 8163'
+global.dtc = 'kontak owner'
+global.phn = '+62 821-3215-6123'
 
 //============= Games ================//
-global.benar = '_*Correcto✅*_'
-global.salah = '_*Equivocado❌*_'
-global.dikit = "Solo un poco mas, ánimo :')"
+global.benar = '_*Benar✅*_'
+global.salah = '_*salah❌*_'
+global.dikit = "Dikit lagi ya ges ya"
 
 global.multiplier = 100
 
