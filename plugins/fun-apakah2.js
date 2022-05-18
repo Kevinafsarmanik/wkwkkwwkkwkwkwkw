@@ -2,7 +2,7 @@ let handler = async (m, { conn, command, text }) => {
   if (!text) throw false
   conn.reply(m.chat, `
 *Pertanyaan:* ${command} ${text}
-*Jawaban:* ${pickRandom(['Ya', 'Mungkin iya', 'Mungkin', 'Mungkin tidak', 'Tidak', 'Tidak mungkin'])}
+*Jawaban:* ${pickRandom(['IYa....pi boong', 'Mungkin iya', 'Bisa jadi', 'Bentar gw lagi berak', 'Tidak', 'Tidak mungkin', 'yakin dek?', 'Yntkts', 'Malah nanya saya', 'Ntah', 'yoi jelas', 'y', 'Nanya Mulu kek wartawan', 'Ntah lah pokoknya owner gw Gamteng', 'Gak ada pertanyaan lain apa?', 'wkwkw pertanyaan lu lucu', 'Nanya Mulu Turu dek'])}
 `.trim(), m, m.mentionedJid ? {
     contextInfo: {
       mentionedJid: m.mentionedJid
