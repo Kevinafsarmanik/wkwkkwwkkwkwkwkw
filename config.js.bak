@@ -3,8 +3,8 @@ global.owner = JSON.parse(fs.readFileSync('./src/owner.json')) // Put your numbe
 global.mods = JSON.parse(fs.readFileSync('./src/moderator.json')) // Want some help?
 
 global.kontak = [
-['56999448163', 'ConfuMods', true],
-['529996125657', 'The Shadow Brokers', true]
+['6282132156123', 'kevin', true],
+['212615571679', 'Bot whatsapp', true]
 ]
 global.APIs = { // API Prefix
   // name: 'https://website'
@@ -39,31 +39,32 @@ before: `*╭═┅〘 ${conn.getName(conn.user.jid)} 〙═╮*
 *║┊:* ⃟ ⃟  ━ೋ๑————๑ೋ━* ⃟ ⃟ *      
 *║┊:◄✜┢┅ீ͜ৡৢ͜͡✦━━◇━━ீ͜ৡৢ͜͡✦┅┧✜►*
 *║┊:* ✨ *%exp XP*
-*║┊:* ⚠𝗟𝗶𝗺𝗶𝘁𝗲𝘀 *%limit Limit*
+*║┊:* ⚠Limit *%limit Limit*
 *║┊:*
-*║┊:* 📆𝗙𝗲𝗰𝗵𝗮: *%weton, %date*
-*║┊:* ⌚𝗛𝗼𝗿𝗮: *%time*
+*║┊:* 📆Tanggal: *%weton, %date*
+*║┊:* ⌚Jam: *%time*
 *║┊:*
-*║┊:* 🕐𝘁𝗶𝗲𝗺𝗽𝗼 𝗱𝗲 𝗮𝗰𝘁𝗶𝘃𝗶𝗱𝗮𝗱: *%uptime*
-*║┊:* 💻𝗮𝗰𝘁𝗶𝘃𝗶𝗱𝗮𝗱 𝗽𝗿𝗶𝗻𝗰𝗶𝗽𝗮𝗹 *%muptime*
-*║┊:* 📁𝗗𝗮𝘁𝗮𝗯𝗮𝘀𝗲: %totalreg numeros
-*║┊:* ◦ 🌐Navegador : *${conn.browserDescription[1]}*
-*║┊:* ◦ 📡servidor : *${conn.browserDescription[0]}*
+*║┊:* 🕐Aktif selama: *%uptime*
+*║┊:* 💻Terhubung   :*%muptime*
+*║┊:* 📁 Database: %totalreg numeros
+*║┊:* ◦ 🌐Navigator : *${conn.browserDescription[1]}*
+*║┊:* ◦ 📡Server : *${conn.browserDescription[0]}*
 *║┊:* ◦ ✅version : *${conn.browserDescription[2]}*
-*║┊:* ◦ 📲Sistema operativo : *${conn.user.phone.device_manufacturer}*
-*║┊:* ◦ 🪀version de *WhatsApp* : ${conn.user.phone.wa_version}
-*║┊:* 👑𝐌𝐲 𝐜𝐚𝐧𝐚𝐥 𝐝𝐞 𝐲𝐨𝐮𝐭𝐮𝐛𝐞
-*║┊:* https://www.youtube.com/watch?v=chMc57gjmkI
+*║┊:* ◦ 📲 Perangkat : *${conn.user.phone.device_manufacturer}*
+*║┊:* ◦ 🪀version *WhatsApp* : ${conn.user.phone.wa_version}
+*║┊:* 👑Instagram owner
+*║┊:* https://www.instagram.com/kevinafsar_
 *║┊:* 𝑇ℎ𝑎𝑛𝑘𝑠 𝑡𝑜 
-*║┊:* @Samu330
-*║┊:* ❤Sam y Perry👑
+*║┊:* Lisaaa,intan,Rusdi dkk
+*║┊:* Orang tua saya
+*║┊:* Allah SWT & nabi Muhammad ❤️
 *╰═┅ৡৢ͜͡✦═══╡𝗦𝗮𝗺𝘂𝟯𝟯𝟬╞═══┅ৡৢ͜͡✦═╯*
 %readmore
-*╭═┅〘🛑 𝗢𝗯𝗲𝗱𝗲𝗰𝗲 𝗹𝗮𝘀 𝗿𝗲𝗴𝗹𝗮𝘀 🛑〙*
-*▌║✙*❌𝑷𝒓𝒐𝒉𝒊𝒃𝒊𝒅𝒐 𝒍𝒍𝒂𝒎𝒂𝒓 𝒂𝒍 𝒃𝒐𝒕📲
-*▌║✙*❌𝑷𝒓𝒐𝒉𝒊𝒃𝒊𝒅𝒐 𝒔𝒑𝒂𝒎 𝒂𝒍 𝒃𝒐𝒕☢
-*▌║✙*❌𝑵𝒐 𝒂𝒈𝒓𝒆𝒈𝒂𝒓 𝒂𝒍 𝒃𝒐𝒕 𝒂 𝒈𝒓𝒖𝒑𝒐𝒔♻
-*▌║✙*✅𝑺𝒖𝒔𝒄𝒓𝒊́𝒃𝒆𝒕𝒆 𝒂 𝒎𝒊 𝒄𝒂𝒏𝒂𝒍🙂
+*╭═┅〘🛑 Peringatan 🛑〙*
+*▌║✙*❌Jangan telfon bot📲
+*▌║✙*❌Jangan spam bot☢
+*▌║✙*❌Jangan membandingkan bot♻
+*▌║✙*✅follow Instagram owner🙂
 %readmore`.trim(),
 header: '*╭═┅〘✨ %category 〙═╮*',
      body: '*▌║✙* %cmd%islimit',
@@ -74,21 +75,21 @@ ${'```%npmdesc```'}
 `,
 }
 
-global.wait = '_*Porfavor espere...*_'
-global.eror = '_*Lo siento el servidor no se encuentra estable justo ahora..*_'
+global.wait = '_*Tunggu Sebentar kak...*_'
+global.eror = '_*Eror hubungi owner*_'
 
 //========Url BUTT=========//
-global.dtu = 'Seguir'
-global.urlnya = "https://www.instagram.com/confumods"
+global.dtu = 'instagram'
+global.urlnya = "https://www.instagram.com/kevinafsar_"
 
 //============= callButtons =============//
-global.dtc = 'Llamar a mi owner'
-global.phn = '+56 9 9944 8163'
+global.dtc = 'Phone owner'
+global.phn = '+62 821-3215-6123'
 
 //============= Games ================//
-global.benar = '_*Correcto✅*_'
-global.salah = '_*Equivocado❌*_'
-global.dikit = "Solo un poco mas, ánimo :')"
+global.benar = '_*Benar✅*_'
+global.salah = '_*salah❌*_'
+global.dikit = "Dikit lagi ya ges ya"
 
 global.multiplier = 100
 
