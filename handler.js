@@ -32,12 +32,12 @@ module.exports = {
         global.author = global.data.owner
         //global.author = 'The.sad.boy01'
         global.wm2 = global.data.namabot + ' ' + global.data.owner
-        global.wm = '𝑀𝑎𝑟𝑦`𝑠 𝐵𝑜𝑡 - 𝙱𝚢 𝚃𝚑𝚎.𝙲𝚘𝚗𝚏𝚞.𝙼𝚘𝚍𝚜'
+        global.wm = 'Himiko - 𝙱𝚢 Kevin'
         global.colong1 = '📸'
-        global.colong2 = 'ʙy 𝚃𝚑𝚎.𝙲𝚘𝚗𝚏𝚞.𝙼𝚘𝚍𝚜'
+        global.colong2 = 'ʙy Kevin'
         global.kontak2 = [
-        ['56999448163', '𝚃𝚑𝚎.𝙲𝚘𝚗𝚏𝚞.𝙼𝚘𝚍𝚜', 'ᴅᴇᴠᴇʟᴏᴩᴇʀ ʙᴏᴛ', 'confumodsjsjsjxd@gmail.com', true],
-        ['529996125657', 'Shadow Brokers', 'No es un Bot', 'nada!', true]
+        ['6282132156123', 'kevin', 'ᴅᴇᴠᴇʟᴏᴩᴇʀ ʙᴏt', 'kevinaafsar@gmail.com', true],
+        ['212615571679', 'Himiko Bot', 'Bot whatsapp', 'Nothing!', true]
         ]
         global.bg = await fs.readFileSync('./Media/mary.jpg')
       //  global.bg = await (await fetch(img)).buffer()
